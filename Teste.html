@@ -1,28 +1,372 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/image/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="cookie.css">
-    <script defer src="bg.js"></script>
+    <script defer src="app.js"></script>
     <title>Cookie Cosmetics</title>
 </head>
+
 <body>
-  <header>
-    <nav class="navbar">
-        <a href="#" class="logo"><img src="/image/Logo.png" alt=""></a>
-        <ul class="nav-menu">
-            <li class="nav-item"><a href="#" class="nav-link">perfumes</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">banho</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">corpo</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">ofertas</a></li>
-        </ul>
-        <div class="hamburguer">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+    <!-- Nav-bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo"><img src="/image/Logo.png" alt="logo"></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">produtos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">avaliações</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">contato</a></li>
+            </ul>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <!-- Content -->
+    <main>
+        <!-- HOME -->
+        <section class="home">
+            <div class="hm-content">
+                <h2>Beleza que inspira</h2>
+                <span>descubra seu potencial de beleza</span>
+                <p>Nossos cosméticos são uma expressão de excelência e compromisso. Cada produto é cuidadosamente
+                    formulado com ingredientes premium, submetido a rigorosos testes de segurança e qualidade. Além
+                    disso, seguimos padrões éticos e ambientalmente responsáveis em nossa produção, garantindo que cada
+                    cliente desfrute de beleza confiável e sustentável. A qualidade é nossa prioridade.</p>
+                <a href="" class="btn">compre agora</a>
+            </div>
+        </section>
+        <!-- SOBRE NÓS -->
+        <section class="sobre">
+            <h1 class="cabeça"><span>Sobre</span> Nós</h1>
+            <div class="all-sb">
+                <div class="image">
+                    <img src="/image/sobre.jpg" alt="imagem cosmeticos">
+
+                </div>
+                <div class="sb-content">
+                    <h3>Nossa Jornada de Beleza</h3>
+                    <p>Escolha-nos porque oferecemos qualidade, sustentabilidade e uma
+                        variedade de opções para realçar sua beleza, com um atendimento
+                        ao cliente excepcional e uma missão inspiradora de promover
+                        confiança e autoestima.</p>
+                    <p>Além disso, estamos constantemente inovando para trazer o que há
+                        de mais moderno em beleza para você. Acreditamos que cada cliente
+                        merece se sentir único e radiante, e estamos aqui para tornar isso
+                        uma realidade. Junte-se a nós nessa jornada de beleza e autoexpressão</p>
+                    <a href="#" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+        <!-- ICONS BAR -->
+        <section class="icons-bar">
+            <div class="icons">
+                <img src="/image/carrinho.png" alt="">
+                <div class="info">
+                    <h3>Frete Grátis</h3>
+                    <span>Todas as Regiões</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="/image/dinheiro.png" alt="">
+                <div class="info">
+                    <h3>100% Seguro</h3>
+                    <span>Garantia de Retorno</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="/image/envelope.png" alt="">
+                <div class="info">
+                    <h3>Ofertas e Brindes</h3>
+                    <span>Todas as Regiões</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="/image/cartao-de-credito.png" alt="">
+                <div class="info">
+                    <h3>Pagamento Seguro</h3>
+                    <span>Garantido pelo PicPay</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- PRODUTOS -->
+
+        <section class="produtos">
+            <h1 class="cabeça">Ultimos <span>Produtos</span></h1>
+            <div class="card-container">
+                <div class="card">
+                    <span class="disconto">-10%</span>
+                    <div class="img">
+                        <img src="/image/32.png" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Egeo Hit</h3>
+                        <div class="price">R$107.99 <span>R$119.99</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="disconto">-10%</span>
+                    <div class="img">
+                        <img src="/image/14.png" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Bubbaloo</h3>
+                        <div class="price">R$120.99 <span>R$158.99</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="disconto">-13%</span>
+                    <div class="img">
+                        <img src="/image/23.png" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Leite e Mel</h3>
+                        <div class="price">R$54.70 <span>R$62.90</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="disconto">-10%</span>
+                    <div class="img">
+                        <img src="/image/19.png" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Leite e Mel</h3>
+                        <div class="price">R$31.50 <span>R$35.00</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="disconto">-20%</span>
+                    <div class="img">
+                        <img src="/image/31.png" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Egeo Beat & Hit</h3>
+                        <div class="price">R$200.00 <span>R$250.00</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="disconto">-15%</span>
+                    <div class="img">
+                        <img src="/image/33.png" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Egeo Cherry Blast</h3>
+                        <div class="price">R$97.80 <span>R$115.30</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="disconto">-10%</span>
+                    <div class="img">
+                        <img src="/image/1.png" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Combo</h3>
+                        <div class="price">R$351.40 <span>R$390.80</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="disconto">-12%</span>
+                    <div class="img">
+                        <img src="/image/18.png" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Bubbaloo</h3>
+                        <div class="price">R$118.50 <span>R$134.70</span></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="disconto">-30%</span>
+                    <div class="img">
+                        <img src="/image/4.png" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Biscoito ou Bolacha</h3>
+                        <div class="price">R$34.80 <span>R$50.25</span></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- REVIEW DOS CLIENTES -->
+        <section class="review">
+            <h1 class="cabeça">Avaliações de <span>Clientes</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Ótimos produtos muito em conta, não tive problemas com entrega e chegou antes do prazo
+                        o produto chegou bem embalado e em ótimo estado.</p>
+                    <div class="user">
+                        <img src="/image/juliana.jpeg" alt="">
+                        <div class="uder-info">
+                            <h3>Juliana Marques</h3>
+                            <span>Cliente Feliz</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>O preçodos produtos são muito baratos e tem promoções muito boas e
+                        preço que cabe no bolso, entrega rápida, voltarei mais vezes.</p>
+                    <div class="user">
+                        <img src="/image/rosangela.jpeg" alt="">
+                        <div class="uder-info">
+                            <h3>Rosangela Pereira</h3>
+                            <span>Cliente Feliz</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Bom de mais, muito cheirosos comprei um pra mim e pra rapaziada toda do fut. Gratidão, que Deus
+                        abençoe a loja de vocês, sucesso
+                    </p>
+                    <div class="user">
+                        <img src="/image/richarlisson.jpeg" alt="">
+                        <div class="uder-info">
+                            <h3>Richarlisson</h3>
+                            <span>Cliente Feliz</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+       <!-- CONTATO -->
+
+       <section class="contato">
+        <h1 class="cabeça">Nos<span> Contate</span></h1>
+        <div class="all">
+            <form action="">
+                <input type="text" placeholder="name" class="box-form">
+                <input type="email" placeholder="email" class="box-form">
+                <input type="number" placeholder="number" class="box-form">
+                <textarea name="" class="box-form" placeholder="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+            <div class="image-ct">
+                <img src="/image/tratamento-de-beleza.png" alt="">
+            </div>
         </div>
-    </nav>
-</header>
+    </section>
+    </main>
+    <section class="footer">
+        <div class="container-ft">
+            <div class="ft-box">
+                <h3>Atalhos</h3>
+                <a href="">Home</a>
+                <a href="">Sobre</a>
+                <a href="">Produtos</a>
+                <a href="">Avaliações</a>
+                <a href="">Contato</a>
+            </div>
+            <div class="ft-box">
+                <h3>Outros Links</h3>
+                <a href="">Minha Conta</a>
+                <a href="">Sacola</a>
+                <a href="">Favoritos</a>
+            </div>
+            <div class="ft-box">
+                <h3>Localização</h3>
+                <a href="">India</a>
+                <a href="">USA</a>
+                <a href="">Japão</a>
+                <a href="">China</a>
+            </div>
+            <div class="ft-box">
+                <h3>Info</h3>
+                <a href="">(85) 94002-8922</a>
+                <a href="">CookieCosmetics@gmail.com</a>
+                <a href="">Jundiaí, São Paulo 60863-660</a>
+                <img src="/image/formas de pagamento.png" alt="">
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
